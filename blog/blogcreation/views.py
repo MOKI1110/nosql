@@ -1,5 +1,4 @@
-from django.http import HttpResponse
-from django.shortcuts import redirect, render
+from django.shortcuts import redirect, render, HttpResponse
 from .models import BlogPost
 from .forms import BlogPostForm
 

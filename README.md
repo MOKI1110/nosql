@@ -1,7 +1,10 @@
+
 # nosql
+
 Sample Blog...
 
 # setup
+
 python -m venv myenv
 myenv\scripts\activate
 pip install django==3.2

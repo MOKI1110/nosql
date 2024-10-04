@@ -7,6 +7,6 @@ class BlogPost(models.Model):
     video = models.FileField(upload_to='videos/',blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     
-    def _str_(self):
+    def __str__(self):
         return self.title
     
